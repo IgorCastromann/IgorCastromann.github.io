@@ -1,6 +1,6 @@
 .about__container {
-  max-width: 30rem;
-  text-align: justify;
+  width: 30rem;
+  text-align: center;
 }
 
 .about__footer {

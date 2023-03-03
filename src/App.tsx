@@ -13,8 +13,8 @@ function App() {
         <Socials />
       </menu>
       <main className="container__main">
-        <AboutMe className="left main__card" />
-        <Avatar className="right main__card" />
+        <AboutMe className="left" />
+        <Avatar className="right" />
       </main>
     </div>
   );

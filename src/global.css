@@ -84,6 +84,37 @@ body {
   align-items: center;
 }
 
-.main__card {
-  width: 40%;
+@media only screen and (max-width: 1100px) {
+  .container__main {
+    grid-area: main;
+
+    display: grid;
+    grid-template-areas:
+      "left"
+      " right";
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .container {
+    height: inherit;
+
+    display: grid;
+    grid-template-areas:
+      "menu header"
+      "main main";
+    gap: 10px;
+    background-color: #f0f0f0;
+  }
+
+  .container__main {
+    grid-area: main;
+
+    display: grid;
+    grid-template-areas:
+      "left"
+      " right";
+    align-items: center;
+  }
 }
