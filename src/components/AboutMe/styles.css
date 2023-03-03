@@ -1,0 +1,55 @@
+.about__container {
+  max-width: 30rem;
+  text-align: justify;
+}
+
+.about__footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 7.5rem;
+}
+
+.about__button {
+  width: 150px;
+  height: 75px;
+  border: 0;
+  border-radius: 15px;
+
+  cursor: pointer;
+
+  background-color: #000;
+  color: white;
+
+  transition: 1s;
+  animation: growth 2s;
+}
+
+.about__button:hover {
+  transition: 1s;
+
+  background-color: #2b121b;
+  color: white;
+  box-shadow: 0 1.5rem 3rem 0 rgba(0, 0, 0, 0.24),
+    0 1.6rem 3.5rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.about__button:hover span {
+  display: none;
+}
+
+.about__button:hover:before {
+  transition: 1s;
+  animation: growth 2s;
+
+  content: "Vamos conversar?";
+}
+
+@keyframes growth {
+  0% {
+    font-size: 0;
+  }
+  100% {
+    font-size: 0.875rem;
+  }
+}
