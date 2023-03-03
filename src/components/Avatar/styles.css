@@ -1,0 +1,8 @@
+.avatar {
+  margin-right: -10rem;
+  margin-bottom: -10rem;
+  width: 30vw !important;
+  height: 80vh;
+  background-image: url("../../assets/igor_2.png");
+  background-repeat: no-repeat;
+}
