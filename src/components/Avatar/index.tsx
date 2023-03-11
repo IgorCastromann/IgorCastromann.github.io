@@ -1,6 +1,4 @@
 import { FC } from "react";
-// import ItsMeIgor from "../../assets/igor_2.png";
-// import "./styles.css";
 interface AvatarProps
   extends React.DetailedHTMLProps<
     React.ImgHTMLAttributes<HTMLImageElement>,
